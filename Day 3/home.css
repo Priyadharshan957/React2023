@@ -1,0 +1,152 @@
+/* Home.css */
+
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #333333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .navbar a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  /* Banner styles */
+  .banner {
+    background: url(./bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .banner .content {
+    text-align: center;
+    width: 30rem;
+  }
+  
+  .banner .content h3 {
+    font-size: 3rem;
+    color: white;
+  }
+
+  .banner .content button {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background-color: orange;
+    border: none; 
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+  .banner .content button:hover {
+    background: #cc5500;
+    color: white;
+    text-decoration: none;
+  }
+/* Footer styles */
+
+.footer {
+  background-color: #333; 
+  color: #fff; 
+  padding: 30px 0; 
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.footer-section h2 {
+  color: #ffc107; /* Header color */
+  border-bottom: 2px solid #ffc107; /* Border color under the header */
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.footer-section p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links li {
+  margin-bottom: 8px;
+}
+
+.links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.links a:hover {
+  color: #ffc107; /* Hover color for links */
+}
+
+.followus ul {
+  list-style: none;
+  padding: 0;
+}
+
+.followus li {
+  margin-bottom: 8px;
+}
+
+.followus a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.followus a:hover {
+  color: #ffc107; /* Hover color for links */
+}
+
+
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+.footer-bottom a {
+  color: #ffc107; /* Color for footer links */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-bottom a:hover {
+  color: #fff; /* Hover color for footer links */
+}
